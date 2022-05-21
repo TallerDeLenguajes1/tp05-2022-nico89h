@@ -1,11 +1,11 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿//using Math;
+// See https://aka.ms/new-console-template for more information
 Console.WriteLine("Hello, World!");
 //inicio de el punto de calculadora
 bool valor=true; // valor booleano
 int x,y;
 int control;
 int operaciones;
-int total;
 while (valor)
 {
     Console.WriteLine("Cual operacion queres realizar?, 1 para suma, 2 para resta, 3 multipliacion 4 para division");
