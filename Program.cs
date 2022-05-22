@@ -61,7 +61,7 @@ int resta(int x, int y){
     return(x-y);
 }
 //
-﻿// See https://aka.ms/new-console-template for more information
+// See https://aka.ms/new-console-template for more information
 Console.WriteLine("Hello, World!");
 //using Math;
 Console.WriteLine("Dame un numero");
@@ -76,3 +76,5 @@ Console.WriteLine("dame otro numero : ");
 int j=Int32.Parse(Console.ReadLine());
 Console.WriteLine("El maximo entre los dos numeros : "+ Math.Max(k,j));
 Console.WriteLine("El minimo entre los dos numeros : "+ Math.Min(k,j));
+//inicio de el ejercicio 4 donde se tienen que mostrar por pantalla con tostring la suma de 2 numeros
+Console.WriteLine("La suma de el numero x+y es: "+suma(j,y));
