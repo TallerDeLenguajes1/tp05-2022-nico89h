@@ -60,3 +60,19 @@ int suma(int x, int y){
 int resta(int x, int y){
     return(x-y);
 }
+//
+﻿// See https://aka.ms/new-console-template for more information
+Console.WriteLine("Hello, World!");
+//using Math;
+Console.WriteLine("Dame un numero");
+float k=Int32.Parse(Console.ReadLine());
+Console.WriteLine("Valor absoluto de el numero : "+ Math.Abs(k));
+Console.WriteLine("El cuadrado de el numero : "+ Math.Pow(k,2));
+Console.WriteLine("El seno el numero : "+ Math.Sin(k));
+Console.WriteLine("El coseno de el numero : "+ Math.Cos(k));
+Console.WriteLine("Parte entera : "+ Math.Truncate(k));
+Console.WriteLine("El cuadrado de el numero : "+ Math.Pow(k,2));
+Console.WriteLine("dame otro numero : ");
+int j=Int32.Parse(Console.ReadLine());
+Console.WriteLine("El maximo entre los dos numeros : "+ Math.Max(k,j));
+Console.WriteLine("El minimo entre los dos numeros : "+ Math.Min(k,j));
